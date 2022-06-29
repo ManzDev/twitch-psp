@@ -1,0 +1,32 @@
+@font-face {
+  font-family: BioRhyme;
+  src: url("fonts/biorhyme.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Plation;
+  src:
+    url("fonts/plation.woff2") format("woff2"),
+    url("fonts/plation.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BTSEPS2";
+  src:
+    url("fonts/btseps2.woff2") format("woff2"),
+    url("fonts/btseps2.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  background: #223;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+}
