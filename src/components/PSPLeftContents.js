@@ -1,7 +1,7 @@
 import "./PSPCross.js";
 import "./PSPPad.js";
 
-class PSPRightContents extends HTMLElement {
+class PSPLeftContents extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -54,7 +54,7 @@ class PSPRightContents extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = /* html */`
-    <style>${PSPRightContents.styles}</style>
+    <style>${PSPLeftContents.styles}</style>
     <div class="logo">
       <span class="p">P</span>
       <span class="s">S</span>
@@ -65,4 +65,4 @@ class PSPRightContents extends HTMLElement {
   }
 }
 
-customElements.define("psp-left-contents", PSPRightContents);
+customElements.define("psp-left-contents", PSPLeftContents);
